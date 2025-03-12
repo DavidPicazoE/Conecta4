@@ -1,62 +1,37 @@
-Proyecto: Conecta 4
+# Conecta 4 🎮
+Un juego clásico de Conecta 4 desarrollado en Java, jugable desde la consola.
 
-🎮 Descripción
+## 📸 Capturas de pantalla
 
-Este proyecto es una implementación en Java del clásico juego Conecta 4, donde dos jugadores se turnan para dejar caer fichas en una cuadrícula con el objetivo de alinear cuatro en línea (horizontal, vertical o diagonal).
+### Inicio de la partida
+![Inicio del juego](assets/conecta4.png)
 
-🔧 Funcionalidades
+### Final de la partida
+![Final del juego](assets/conecta4f.png)
 
-Dos jugadores ingresan sus nombres al iniciar.
+## 🚀 Características
+- Juego para dos jugadores
+- Comprobación automática de victoria (horizontal, vertical y diagonal)
+- Reinicio de partida tras finalizar
+- Interfaz en consola
 
-Los jugadores se alternan para colocar sus fichas (X y O).
+## 🛠️ Instalación
+Clona este repositorio y ejecuta el juego:
+```bash
+ git clone https://github.com/DavidPicazoE/Conecta4-Java.git
+ cd Conecta4-Java
+ javac Conecta4.java
+ java Conecta4
+```
 
-Se detectan automáticamente las victorias horizontales, verticales y diagonales.
+## 🧠 Cómo jugar
+1. Introduce los nombres de los dos jugadores.
+2. Por turnos, selecciona la columna donde quieres dejar caer tu ficha.
+3. El primer jugador que consiga conectar 4 fichas gana.
+4. ¡Diviértete y desafía a tus amigos!
 
-Posibilidad de reiniciar la partida al terminar.
+## 👨‍💻 Autor
+- **David Picazo** — [GitHub](https://github.com/DavidPicazoE)
 
-🛠️ Tecnologías utilizadas
+¡Que gane el mejor! 🏅
 
-Lenguaje: Java
-
-Entrada: Scanner para la interacción con los jugadores.
-
-Sistema de matrices bidimensionales para gestionar el tablero.
-
-📁 Estructura del proyecto
-
-/conecta4
-  ├── Conecta4.java
-  └── assets
-      ├── conecta4.png    # Imagen de inicio de la partida
-      └── conecta4f.png    # Imagen del final de la partida
-
-🖼️ Imágenes del juego
-
-🟡 Inicio de la partida
-
-
-
-🔴 Final de la partida
-
-
-
-▶️ Cómo ejecutar
-
-Clonar el repositorio:
-
-git clone <URL_DEL_REPOSITORIO>
-cd javaapplication17
-
-Compilar el programa:
-
-javac Conecta4.java
-
-Ejecutar el programa:
-
-java Conecta4
-
-👾 Autores
-
-David Picazo
-
-¡Que gane el mejor jugador! 🎉
