@@ -1,4 +1,4 @@
-package javaapplication17;
+package conecta4;
 
 import java.util.Scanner;
 
